@@ -1,0 +1,24 @@
+nav{
+    display: block;
+}
+header{
+    background-color: aqua;
+}
+a{
+    color: pink;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+}
+div{
+    background-color: grey;
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+}
+p{
+    background-color: rgb(113, 134, 45);
+    -webkit-text-stroke: 1px pink;
+}
