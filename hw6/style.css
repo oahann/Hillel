@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.navigation{
+    position: relative;
+}
+.list-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+    font-style: normal; 
+    color: #565759;
+    font-size: 38px;
+    margin: 20px;
+    margin-left: 50px;
+}
+.list{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.list-right{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 50px;
+ }
+.navigation li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: #697390;
+    font-size: 16px;
+}
+.img1{
+    max-width: 450px;
+    display: block;
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.title{
+    width: 380px;
+    margin-left: auto;
+    margin-top: -350px;
+    margin-right: 100px;
+    padding: 25px;
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #3A3A3A;
+}
+.wrapper-button{
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: 100px;
+    padding: 0 25px ;
+}
+.button{    
+    width: 122px;
+    border-style: solid;
+    border-color: #434343;
+    border-width: 2px;
+    border-color: #434343;
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: center;
+    padding:10px 0;
+    background-color: #434343;
+    color: #FFFFFF;
+}
+.wrapper-list-items{
+    margin: 0 auto;
+    text-align: center;
+}
+.title-for-items{
+    margin-top: 150px;
+    text-align: center;
+    font-family: "Federo";
+    font-weight: 400;
+    font-size: 40px;
+    padding: 10px 0;
+} 
+.wrapper-list-items li{
+    display: inline-block;
+    white-space: nowrap;
+}
+.chandelier, .clock, .black-chair, .wall-clock {
+    position: relative;
+    display: inline-block;
+    max-width: 245px;
+    height: 342px;
+    box-sizing: border-box;
+    vertical-align: top;
+    border: solid 1px #6060604c;
+    margin: 5px;
+}
+.chandelier{
+    margin-left: 30px;
+}
+.img4, .img5, .img6, .img7{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    max-height: 100%; 
+    width: auto;
+    height: auto;
+    margin:0 auto;
+}
+.small-black-chair, .pillow, .small-chair{
+    position: relative;
+    width: 300px;
+    height: 342px;
+    display: inline-block;
+    vertical-align: top;
+    border: solid 1px #6060604c;
+    margin: 5px;
+    text-align: center;
+}
+.img8, .img9, .img10{
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+}
+.wrapper-list-items li ul{
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+    
+}
+.wrapper-list-items li ul li{
+    display: block;
+    padding: 6px;
+    padding-bottom: 4px;
+    border: solid 1px #6060604c;
+    margin-bottom: 5px;
+}
+.sale{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    border: solid 2px #9E0B0F;
+    background-color: #9E0B0F;
+    color: white;
+    width: 75px;
+    height: 22px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.hot{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    border: solid 2px #F29731;
+    background-color: #F29731;
+    color: white;
+    width: 75px;
+    height: 22px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.name-products{
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;  
+    color: #2A2A2B;
+}
+.price{
+    font-family: "Federo";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    color: #8C8C8C;
+}
+.img4{
+    padding-top: 18px;
+}
+.img5{
+    padding-top: 65px;
+    padding-bottom: 22px;
+}
+.img6{
+    padding-top: 50px;
+    padding-right: 32px;
+}
+.img7{
+    padding-top: 35px; 
+}.img8{
+    padding-top: 75px;
+}
+.img9{
+    padding-top: 90px;
+    padding-bottom: 38px;
+}
+.img10{
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+.wrapper-for-deal-for-week{
+    background-color: #00000009;
+    margin-top: 100px;
+    height: 440px;
+}
+.img11{
+    border: solid white;
+    background-color: white;
+    border-radius: 1500px;
+    height: 227px;
+    width: 306px;
+    padding: 73px 32px;
+    margin-left: 121px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    max-width: 306px;
+}
+.wrapper-text{
+   max-width: 600px; 
+   margin-left: 600px;
+}
+.title-deal-for-week{
+    margin-top: -390px;
+    border: solid #8096BC;
+    max-width: fit-content;
+    background-color: #8096BC;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 3px 22px;
+}
+.prise-deal-for-week{
+    margin-top: 10px;
+    font-family: "Federo";
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 400;
+}
+.color-price{
+    color: #8096BC;
+}
+.text-deal-for-week{
+    margin-top: 10px;
+    color: #727272;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 100px;
+}
+.button-shop{
+    border: solid #434343;
+    max-width: fit-content;
+    background-color: #434343;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3px 22px;    
+    margin-top: 10px;
+}
+.button-shop a{
+    color: white;
+}
+.list-deal-for-week{
+    display: block;
+    max-width: 490px;
+    margin-left: auto;
+    padding: 10px;
+}
+.img12, .img13, .img14, .img15{
+    margin: 8px;
+    max-width: 100px;
+    display: inline-block;
+    border: solid #72727250;
+    border-width: 0.1px;
+    background-color: white;
+    height: 63px;
+    width: 63px; 
+    text-align: center;
+}
+.img12 img{
+    max-width: 63px;
+    max-height: 43px;
+    padding-top: 10px;
+}
+.img13 img{
+    max-width: 63px;
+    max-height: 43px;
+    padding-top: 10px;
+}
+.img14 img{
+    max-width: 63px;
+    max-height: 43px;
+    padding-top: 11px;
+}
+.img15 img{
+    max-width: 63px;
+    max-height: 43px;
+    padding-top: 10px;
+}
+.categories{
+    font-family: "Federo";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 138px;
+    margin-bottom: 70px;
+}
+.list-categories{
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.103);
+    margin-bottom: 20px;
+}
+.dressing-table, .lamp, .cabinet, .sofa, .chair, .bed{
+    display: inline-block;
+    padding: 5px;
+    padding-top: 25px;
+    height: 98px;
+    width: 160px;
+}
+.dressing-table{
+    background-color: #FBF9F3;
+}
+.dressing-table img, .lamp img, .cabinet img, .sofa img, .chair img, .bed img{
+    height: 50px;
+    width: 50px; 
+}
+.dressing-table p, .lamp p, .cabinet p, .sofa p, .chair p, .bed p{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 15px;
+
+}
+.img16, .img17, .img18, .img19{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    max-height: 100%; 
+    width: auto;
+    height: auto;
+    margin:0 auto;
+}
+.img16{
+    padding-top: 80px;
+}
+.img17{
+    padding-top: 50px;
+}
+.img18{
+    padding-top: 50px;
+}
+.img19{
+    padding-top: 80px;
+}
+.table-with-chair, .dress-table, .table, .table2{
+    position: relative;
+    display: inline-block;
+    max-width: 245px;
+    height: 342px;
+    box-sizing: border-box;
+    vertical-align: top;
+    border: solid 1px #6060604c;
+    margin: 5px
+}
+.items-dressing-table{
+    text-align: center;
+}
+.items-dressing-table ul{
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+}
+.items-dressing-table li{
+    display: block;
+    padding: 6px;
+    padding-bottom: 4px;
+    border: solid 1px #6060604c;
+    margin-bottom: 5px;
+}
+.items-dressing-table .name-products{
+    padding-top: 10px;
+}
+.wrapper-list-footer{
+    background-color: #e0dcdc;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-top: 0;
+    padding-top: 0
+}
+.title-footer{
+    font-family: "Potta One";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 65px;
+    text-align: center;
+    margin-top: 100px;
+    color: #424346;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-list1, .footer-list2, .footer-list3, .footer-list4 {
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 10px;
+}
+.footer-list1 p, .footer-list2 p, .footer-list3 p, .footer-list4 p{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+}
+.footer-list1 li, .footer-list2 li, .footer-list3 li, .footer-list4 li{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px;
+}
+.footer-list1 a, .footer-list2 a, .footer-list3 a, .footer-list4 a{
+    color: #444444;
+}
+.footer-list4 img{
+    padding-right: 5px;
+}
+
+.end{
+    text-align: center;
+    color: #7A7A7A;
+    font-size: 12px;
+}
