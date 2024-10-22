@@ -1,0 +1,40 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: azure;
+}
+.navigation__list{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.navigation__item{
+    margin: 10px 0;
+}
+.navigation__link{
+    text-decoration: none;
+    color: black;
+}
+.block{
+    height: 700px;
+}
+.block_blue{
+    background-color: aqua;
+}
+.block_violet{
+    background-color: rgb(255, 0, 217);
+}
+.block_green{
+    background-color: rgb(0, 255, 47);
+}
+.block_yellow{
+    background-color: rgb(238, 255, 0);
+}
+.block_pink{
+    background-color: rgb(255, 0, 98);
+}
