@@ -1,0 +1,16 @@
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+.hui, .vagina{
+   text-align: center;
+}
+.vagina__img{
+    margin-top: 50px;
+}
+.hui__img:hover{
+    transform: translateY(-120px);
+    transition-duration: 2s;
+}
+

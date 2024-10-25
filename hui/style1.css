@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.clock__img{
+    background-color: white;
+}
+.page{
+    font-family: "Pacifico", cursive;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.wrapper-btn{
+    height: 1000px;
+    text-align: center;
+}
+.btn__text{
+    margin-top: 220px;
+    font-size: 130px;
+}
+.btn__love{
+    font-size: 80px;
+    padding: 10px 70px;
+    margin-top: 30px;
+    color: rgb(62, 57, 57);
+    background-color: #ffc0cb;
+    border: 1px solid #ffb6c2 ;
+    font-family: "Pacifico", cursive;
+    box-shadow: 10px 5px 5px #fd9aaa;
+}
+.btn__love:hover{
+    color: black;
+    background-image: url(https://www.publicdomainpictures.net/pictures/20000/nahled/hearts-wallpaper.jpg);
+}
+.clock-box{
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    z-index: 5;
+}
+.hui__img{
+    position: absolute;
+    top: 130px;
+    left: 480px;
+    transition-duration: 4s;
+}
+.hui__img:hover{
+    transform: rotateZ(180deg);
+    display: block;
+}
+.clock-box__text{
+    font-size: 60px;
+    margin-top: 20px;
+    /* display: none; */
+}
