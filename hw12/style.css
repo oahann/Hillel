@@ -1,0 +1,41 @@
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.ball{
+    border-radius: 100%;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin-top: 300px;
+    animation: ball 20s linear infinite;
+}
+@keyframes ball {
+    0%{
+        translate: 0px -0px;
+    }
+    20%{
+        translate: 250px -100px;
+    }
+    40%{
+        translate: 400px -200px;
+    }
+    60%{
+        translate: 500px -300px;
+        width: 250px;
+        height: 250px;
+    }
+    75%{
+        translate: 600px -200px;
+        width: 200px;
+        height: 200px
+    }
+    85%{
+        translate: 700px -100px;
+    }
+    100%{
+        translate: 800px -0px;
+        width: 150px;
+        height: 150px;
+    }
+}
