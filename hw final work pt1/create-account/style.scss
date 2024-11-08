@@ -1,0 +1,101 @@
+$font-first: "Space Mono", monospace;
+$title-level-1: 67px;
+$title-level-2: 51px;
+$title-level-3: 38px;
+$title-level-4: 28px;
+$title-level-5: 22px;
+$title-base: 16px;
+$font-second:"Work Sans", sans-serif;
+$background: #2B2B2B;
+$background-secondary: #3B3B3B;
+$caption-and-label-text: #858584;
+$text: #FFFFFF;
+$call-to-action:#A259FF;
+$gradient-2: linear-gradient(#A259FF, #377DF7);
+$gradient-1: linear-gradient(#A259FF, #FF6250);
+
+
+
+
+.icon-LockKey::before{
+    font-family: 'first-font';
+    content: '\e932';
+}
+.account__icon1::before, .account__icon2::before, .account__icon3::before, .account__icon4::before{
+    color: #BDBDBD; 
+   padding-right: 0;
+   font-size: 20px;
+}
+.main__wrapper{
+    display: flex;
+    align-items: start;
+    gap: 60px;
+}
+.main__img{
+    margin-left: -150px;
+}
+.main__wrapper-img{
+    display: block;
+}
+.main__wrapper-text{
+    align-self: center  ;
+}
+.main__title{
+    font-size: $title-level-2;
+    font-family: $font-second;
+    line-height: 56.1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.main__text{
+    font-family: $font-second;
+    font-size: 22px;
+    line-height: 35.2px;
+    margin-bottom: 40px;
+}
+.main__form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.form__input{
+    font-family: $font-second;
+    font-size: $title-base;
+    color: $background;
+    background-color: $text;
+    padding: 12px 20px 12px 52px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    width: 258px;
+}
+.account__icon1{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+.account__icon2{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+.account__icon3{
+    position: absolute;
+    top: 128px;
+    left: 20px;
+}
+.account__icon4{
+    position: absolute;
+    top: 187px;
+    left: 20px;
+}
+.main__button{
+    margin-top: 30px;
+    font-family: $font-second;
+    font-size: $title-base;
+    line-height: 22.4px;
+    font-weight: 600;
+    padding: 12px 104.5px;
+}

@@ -1,0 +1,122 @@
+@media screen and (max-width: 835px) {
+  .container {
+    max-width: 690px;
+    margin: 0 auto;
+  }
+  .navigation-inner {
+    padding: 15px 50px;
+  }
+  .navigation__logo {
+    font-size: 22px;
+  }
+  .navigation__list {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 45px;
+    background-color: #3B3B3B;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    width: 200px;
+  }
+  .navigation__link {
+    font-size: 14px;
+  }
+  .navigation__button {
+    padding: 0px 50px;
+    height: 40px;
+  }
+  .burger {
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+  .burger-toggle {
+    display: none;
+  }
+  .icon-List::before {
+    display: inline-block;
+  }
+  .burger-toggle:checked + .burger + .navigation__list {
+    display: flex;
+  }
+  .discover-inner {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .left__title {
+    font-size: 38px;
+    line-height: 45.6px;
+    width: 330px;
+  }
+  .left__text {
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 330px;
+    margin-bottom: 20px;
+  }
+  .discover__button {
+    margin-bottom: 20px;
+  }
+  .numbers__additional-info {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .bold {
+    font-weight: 700px;
+    font-size: 22px;
+  }
+  .discover__right {
+    align-self: start;
+  }
+  .right__img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .right__title {
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 835px) {
+  .main__img {
+    width: 397px;
+    height: 615px;
+  }
+  .main__title {
+    font-size: 38px;
+    line-height: 45.6px;
+  }
+  .main__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+  }
+  .form__input {
+    width: 253px;
+  }
+  .main__button {
+    padding: 12px 99.5px;
+  }
+}
+@media screen and (max-width: 835px) {
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer__logo, .footer__caption {
+    margin-bottom: 20px;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+  .footer__caption {
+    font-size: 22px;
+    line-height: 35.2px;
+  }
+  .footer__form {
+    margin-bottom: 49px;
+  }
+}/*# sourceMappingURL=tablet-style.css.map */

@@ -1,0 +1,96 @@
+.icon-LockKey::before {
+  font-family: "first-font";
+  content: "\e932";
+}
+
+.account__icon1::before, .account__icon2::before, .account__icon3::before, .account__icon4::before {
+  color: #BDBDBD;
+  padding-right: 0;
+  font-size: 20px;
+}
+
+.main__wrapper {
+  display: flex;
+  align-items: start;
+  gap: 60px;
+}
+
+.main__img {
+  margin-left: -150px;
+}
+
+.main__wrapper-img {
+  display: block;
+}
+
+.main__wrapper-text {
+  align-self: center;
+}
+
+.main__title {
+  font-size: 51px;
+  font-family: "Work Sans", sans-serif;
+  line-height: 56.1px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.main__text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  line-height: 35.2px;
+  margin-bottom: 40px;
+}
+
+.main__form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.form__input {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #2B2B2B;
+  background-color: #FFFFFF;
+  padding: 12px 20px 12px 52px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  width: 258px;
+}
+
+.account__icon1 {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+
+.account__icon2 {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+
+.account__icon3 {
+  position: absolute;
+  top: 128px;
+  left: 20px;
+}
+
+.account__icon4 {
+  position: absolute;
+  top: 187px;
+  left: 20px;
+}
+
+.main__button {
+  margin-top: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 600;
+  padding: 12px 104.5px;
+}/*# sourceMappingURL=style.css.map */

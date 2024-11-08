@@ -1,0 +1,200 @@
+$font-first: "Space Mono", monospace;
+$title-level-1: 67px;
+$title-level-2: 51px;
+$title-level-3: 38px;
+$title-level-4: 28px;
+$title-level-5: 22px;
+$title-base: 16px;
+$font-second:"Work Sans", sans-serif;
+$background: #2B2B2B;
+$background-secondary: #3B3B3B;
+$caption-and-label-text: #858584;
+$text: #FFFFFF;
+$call-to-action:#A259FF;
+$gradient-2: linear-gradient(#A259FF, #377DF7);
+$gradient-1: linear-gradient(#A259FF, #FF6250);
+
+
+
+
+//navigation
+
+@media screen and (max-width:376px){
+    .container{
+        max-width: 315px;
+        margin: 0 auto;
+    }
+    .navigation-inner{
+        padding: 15px 30px;
+    }
+    .navigation__button{
+        padding: 0px 50px;
+        height: 40px;
+    }
+    .discover-inner{
+        flex-direction: column;
+        padding-top: 40px;
+        gap: 10px;
+    }
+    .left__button{
+        margin-bottom: 20px;
+        width: 315px;
+        order: 5;
+    }
+    .left__title{
+        font-size: $title-level-4;
+        line-height: 39.2px;
+        width:  315px;
+    }
+    .left__text{
+        width: 315px;
+    }
+    .numbers{
+        column-gap: 43px;
+        order: 4;
+        margin-bottom: 20px;
+    }
+}
+//main section collection
+@media screen and (max-width:376px){
+    .delete-on-mobile{
+        display: none;
+    }
+    .img--big{
+        width: 315px;
+    }
+    .card__grid{
+        gap: 7.5px;
+    }
+    .collection-wrapper-for-text{
+        padding-top: 40px;
+    }
+    .collection-inner{
+        padding-bottom: 40px;
+    }
+}
+//main section creators
+@media screen and (max-width:376px){
+    .creators-top-wrapper{
+        flex-direction: column;
+        gap: 30px;
+        margin: 40px 0;
+        margin-bottom: 20px;
+    }
+    .creators-top__wrapper-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .creators__button{
+        align-self: stretch;
+        margin-bottom: 0px;
+    }
+    .creators-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        width: 315px;
+        height: 580px;
+        gap: 20px;
+    }
+    .creators__card{
+        width: 315px;
+    }
+}
+// main section browse
+@media  screen and (max-width:376px) {
+    .browse__grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 17px;
+        row-gap: 30px;
+    }
+}
+// main section more
+@media  screen and (max-width:376px){
+    .more-top-wrapper{
+        flex-direction: column;
+        align-items: stretch;
+        margin-bottom: 20px;
+    }
+    .more-top__wrapper-text{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .more__wrapper{
+        flex-direction: column;
+    }
+}
+// main section magic
+@media  screen and (max-width:376px){
+    .magic__wrapper{
+        flex-direction: column;
+        align-items: start;
+        padding-top: 120px;
+    }
+    .magic__wrapper-text{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .magic__text{
+        align-self: start;
+    }
+    .magic__wrapper-timer{
+        align-self: stretch;
+        text-align: center;
+    }
+}
+//main section started 
+@media  screen and (max-width:376px){
+    .started__wrapper-card{
+        flex-direction: column;
+    }
+    .started__card{
+        display: flex;
+        align-items: center;
+        height: 117px;
+        width: 275px;
+        padding: 20px;
+        text-align: start;
+    }
+    .started__card__img{
+        width: 100px;
+        height: 100px;
+    }
+}
+//main section join
+@media  screen and (max-width:376px){
+    .join__wrapper{
+        background-color: $background;
+        flex-direction: column;
+        padding: 0;
+        gap: 10px;
+    }
+    .join__img{
+        width: 315px;
+        height: 255px;
+    }
+    .join__text{
+        margin-bottom: 20px;
+    }
+}
+//footer
+@media  screen and (max-width:376px){
+    .social{
+        margin-bottom: 0;
+    }
+    .footer__form{
+        margin-bottom: 30px;
+    }
+    .footer__input{
+        height: 46px;
+        width: 245px;
+        margin-bottom: 16px;
+    }
+    .footer__button{
+        height: 46px;
+        width: 315px;
+        margin-left: 0;
+    }
+}
